@@ -1,4 +1,0 @@
-# Mögliche Vertiefungen
-
-## Linksammlung
-+ xxxx
