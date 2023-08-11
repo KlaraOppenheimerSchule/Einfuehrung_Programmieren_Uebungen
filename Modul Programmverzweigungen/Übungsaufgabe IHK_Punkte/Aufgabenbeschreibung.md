@@ -8,6 +8,6 @@ Erstellen Sie ein Programm, das die erreichten IHK-Punkte (siehe Abbildung recht
 ![IHK Punkteverteilung](https://1a-pruefung.de/wp-content/uploads/2017/11/notenschluessel.png)
 
 ## Vertiefungsoptionen
-Überlegen Sie sich, wie man die Richtigkeit der Implementierung idealer weise testen könnte. Erstellen Sie eine passenden Unittest.
+Überlegen Sie sich, wie man die Richtigkeit der Implementierung idealerweise testen könnte. Erstellen Sie eine passenden Unittest.
 
 ## Hilfestellungen

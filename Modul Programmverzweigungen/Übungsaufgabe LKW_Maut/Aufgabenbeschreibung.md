@@ -12,6 +12,6 @@ Aufgabenstellung: Schreiben Sie eine Methode, die nach der oben beschriebenen Re
  
 
 ## Vertiefungsoptionen
-Überlegen Sie sich, wie man die Richtigkeit der Implementierung idealer weise testen könnte. Erstellen Sie eine passenden Unittest.
+Überlegen Sie sich, wie man die Richtigkeit der Implementierung idealerweise testen könnte. Erstellen Sie eine passenden Unittest.
 
 ## Hilfestellungen
