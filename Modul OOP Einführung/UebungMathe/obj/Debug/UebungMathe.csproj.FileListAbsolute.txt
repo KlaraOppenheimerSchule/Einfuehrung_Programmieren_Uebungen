@@ -1,0 +1,7 @@
+C:\Users\czobe\OneDrive - Klara-Oppenheimer-Schule\Meine Unterlagen\Informatik\Code\Einfuehrung_Programmieren_Uebungen\Modul OOP Einführung\UebungMathe\bin\Debug\UebungMathe.exe.config
+C:\Users\czobe\OneDrive - Klara-Oppenheimer-Schule\Meine Unterlagen\Informatik\Code\Einfuehrung_Programmieren_Uebungen\Modul OOP Einführung\UebungMathe\bin\Debug\UebungMathe.exe
+C:\Users\czobe\OneDrive - Klara-Oppenheimer-Schule\Meine Unterlagen\Informatik\Code\Einfuehrung_Programmieren_Uebungen\Modul OOP Einführung\UebungMathe\bin\Debug\UebungMathe.pdb
+C:\Users\czobe\OneDrive - Klara-Oppenheimer-Schule\Meine Unterlagen\Informatik\Code\Einfuehrung_Programmieren_Uebungen\Modul OOP Einführung\UebungMathe\obj\Debug\UebungMathe.csproj.AssemblyReference.cache
+C:\Users\czobe\OneDrive - Klara-Oppenheimer-Schule\Meine Unterlagen\Informatik\Code\Einfuehrung_Programmieren_Uebungen\Modul OOP Einführung\UebungMathe\obj\Debug\UebungMathe.csproj.CoreCompileInputs.cache
+C:\Users\czobe\OneDrive - Klara-Oppenheimer-Schule\Meine Unterlagen\Informatik\Code\Einfuehrung_Programmieren_Uebungen\Modul OOP Einführung\UebungMathe\obj\Debug\UebungMathe.exe
+C:\Users\czobe\OneDrive - Klara-Oppenheimer-Schule\Meine Unterlagen\Informatik\Code\Einfuehrung_Programmieren_Uebungen\Modul OOP Einführung\UebungMathe\obj\Debug\UebungMathe.pdb
