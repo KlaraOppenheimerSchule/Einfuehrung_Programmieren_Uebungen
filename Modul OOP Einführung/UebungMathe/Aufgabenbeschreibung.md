@@ -1,6 +1,6 @@
 # Aufgabe Matheübungen
 
-## Schwierigkeitsgrad: *-**
+## Schwierigkeitsgrad: * - **
 
 ## Aufgabenbeschreibung
 1. Erstellen Sie eine Methode, die zwei Zahlen übergeben bekommt und die Summe dieser Zahlen zurückgibt. Die Ausgabe dieser Summe soll nach erfolgtem Aufruf der Methode vom Aufrufer der Methode ausgegeben werden.
