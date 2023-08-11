@@ -1,6 +1,5 @@
 class Year:
 
-
     def isSchaltjahr(year):
         year = int(year)
         if(year % 4 == 0):
