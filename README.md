@@ -10,7 +10,8 @@ Sammlung von Übungsaufgaben, die im Rahmen der Einführung in das Fach Anwendun
     + Vertiefungsempfehlungen
 
 ### Code hinzufügen
-Schüler und Schülerinnen sind herzlich eingeladen, ihre Lösungen in das GitHub Repo zu stellen. Nutzt hierzu bitte die Funktion der Pull Requests, damit wir nochmal kurz über den Code schauen können, bevor dieser für alle frei gegeben wird.
+Schüler und Schülerinnen sind herzlich eingeladen, ihre Lösungen in das GitHub Repo zu stellen. Nutzt hierzu bitte die Funktion der Pull Requests, damit wir nochmal kurz über den Code schauen können, bevor dieser für alle frei gegeben wird. 
+Wie Pull-Requests funktionieren, kann man z.B. hier nachlesen: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request
 
 **Wichtig:** Nutzt bitte folgende Namenskonvention: **Uebung_Uebungsaufgabentitel_VN**, wobei V=Erster Buchstabe eures Vornamens und N=Erster Buchstabe eures Nachnamens ist. Und stellt natürlich euren Code in den Ordner der Sprache, in der ihr die Übungsaufgabe umgesetzt habt.
 
