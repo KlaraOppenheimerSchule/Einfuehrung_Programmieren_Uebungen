@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="de">
+	<head>
+		<meta charset="UTF-8">
+		<title>Cäsar-Verschlüsselung</title>
+	</head>
+	<body>
+			<div>
+				<h1>Ver- und Entschlüsselung nach Cäsar</h1>
+				<form method="post" action="cryptography.php">
+					<p><label for="text">Text</label> <input type="text" id="text" name="text" required></p>
+					<p><label for="key">Schlüssel</label> <input type="number" id="key" name="key" min="0" step="1"></p>
+					<p><label for="encrypt">Verschlüsseln</label><input type="radio" name="method" id="encrypt" value="encrypt" checked></p>
+					<p><label for="decrypt">Entschlüsseln</label><input type="radio" name="method" id="decrypt" value="decrypt"></p>
+					<!--<p><label for="guess">Guess</label><input type="radio" name="method" id="guess" value="guess"></p>-->
+					<p><input type="submit" value="abschicken"></p>
+				</form>
+			</div>
+	</body>
+</html>
