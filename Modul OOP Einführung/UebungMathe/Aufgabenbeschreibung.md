@@ -9,10 +9,11 @@
 
 3. Eine Methode soll einen int-Wert erhalten und überprüfen, ob dieser positiv ist. Sofern der Wert positiv ist, soll die Methode ein true, andernfalls ein false an den Aufrufer zurückgeben.
 
-4. Programmieren Sie eine Methode, die die Fakultät von einer übergebenen natürlichen Zahl errechnet und an den Aufrufer zurückgibt. Beispiel 3!=1*2*3=6. Erweiterung für Schnelle: Realisieren Sie obige Funktion rekursiv. 
-
+4. Programmieren Sie eine Methode, die die Fakultät von einer übergebenen natürlichen Zahl errechnet und an den Aufrufer zurückgibt. Beispiel 3!=1*2*3=6. Erweiterung für Schnelle: Realisieren Sie obige Funktion rekursiv.
+   
+6. Erstellen Sie ein Methode, die eine für eine Zahl die die Fibonacci-Zahl des übergebenen Parameters berechnet.
 
 ## Vertiefungsoptionen
-Sollten Ihnen obige Aufgaben zu leicht vorkommen, empfehlen wir Ihnen mit Rekursionen zu spielen...
+Sollten Ihnen obige Aufgaben zu leicht vorkommen, empfehlen wir Ihnen mit Rekursionen zu spielen.. Im Regal wartet z.B. eine schöne Holzkiste mit den Türmen von Hanoi.
 
 ## Hilfestellungen
