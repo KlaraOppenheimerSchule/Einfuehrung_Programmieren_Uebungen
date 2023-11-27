@@ -1,4 +1,4 @@
-# Aufgabe Eine Klasse mit mathematischen Methoden erstellen
+# Aufgabe: Klasse mit mathematischen Methoden erstellen
 
 ## Schwierigkeitsgrad: * - **
 
