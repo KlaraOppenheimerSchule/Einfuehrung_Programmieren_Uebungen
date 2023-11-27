@@ -1,4 +1,4 @@
-﻿# Einfuehrung_Programmieren_Uebungen
+﻿# Einfuehrung_Programmieren_Uebungen - Algorithmen
 Sammlung von Übungsaufgaben, die im Rahmen der Einführung in das Fach Anwendungsentwicklung und Programmierung an der Klara-Oppenheimer Schule im Rahemn der 10ten Klasse im Ausbildungsberuf Fachinformatiker Anwendungsentwicklung vermittelt wird.
 
 ## Nutzungshinweise
