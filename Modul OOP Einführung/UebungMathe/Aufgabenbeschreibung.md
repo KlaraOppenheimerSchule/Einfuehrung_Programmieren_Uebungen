@@ -1,4 +1,4 @@
-# Aufgabe Matheübungen
+# Aufgabe Eine Klasse mit mathematischen Methoden erstellen
 
 ## Schwierigkeitsgrad: * - **
 
