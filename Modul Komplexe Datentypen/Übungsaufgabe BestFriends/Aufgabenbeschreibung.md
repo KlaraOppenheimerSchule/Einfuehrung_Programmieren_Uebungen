@@ -1,14 +1,13 @@
-# Aufgabe Tankfüllung - eindimensional
+# Aufgabe Bes Friends- eindimensional
 
 ## Schwierigkeitsgrad: *
 
 ## Aufgabenbeschreibung
-Sie wollen herausfinden, wie viele Kilometer Sie im Durchschnitt mit einer Tankfüllung fahren können. Folgende Werte wurden notiert: (1020, 923,780, 890). 
+1. Erstellen Sie ein Array, das Ihre drei besten Klassenfreunde speichert und diese anschließend wieder ausgibt. 
 
-1. Berechnen Sie die durchschnittliche Kilometerreichweite für Ihr Fahrzeug.
+2. Ein Freund ist in Ungnade gefallen, löschen Sie diesen aus dem Array. Geben Sie den Inhalt des Arrays anschließend wieder aus.
 
-2. Ermitteln Sie den durchschnittlichen Kraftstoffverbrauch je 100 km unter der Annahme, dass Sie einen 70 Liter Tank haben.
-
+3. Sie haben eine neue Freundin kennen gelernt, sie heißt Uschi. Speichern Sie auch diese in Ihrem Array. Geben Sie den Inhalt das Array anschließend wieder aus.
 
 ## Vertiefungsoptionen
 

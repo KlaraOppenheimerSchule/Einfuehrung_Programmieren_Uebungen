@@ -4,7 +4,6 @@
 
 ## Aufgabenbeschreibung
 1. Erstellen Sie für einen Kinosaal ein Reservierungssystem (stark vereinfacht), das es ermöglicht, freie Plätze je nach Kundenwunsch zu reservieren. Da der jetzige Kenntnisstand noch keine Nutzung einer persistenten Quelle vorsieht, werden wir uns vorerst damit begnügen, dass der Nutzer folgenden Ablauf vorfindet: 
-		
 Nach der Eingabe der gewünschten Reihe sowie der Platznummer wird geprüft, ob der gewünschte Platz aktuell verfügbar ist. Ob ein Platz in dem erstmals kleinen Kinosaal mit drei Reihen und je fünf Plätzen verfügbar ist, kann in einem mehrdimensionalen komplexen Datentyp erkannt werden. 
 
 ![Kinosaal](https://github.com/KlaraOppenheimerSchule/Einfuehrung_Programmieren_Uebungen/blob/90f4b89000f2c4e50adf657a0c2d2e1c134a4261/Modul%20Komplexe%20Datentypen/%C3%9Cbungsaufgabe%20Kinosaal/Kinosaal.jpg)
