@@ -13,7 +13,7 @@ def main():
         txt = "Das Jahr " + inputYear + " ist ein Schaltjahr!"
         print(txt)
     else:
-        txt = "Das Jahr " + inputYear + "ist KEIN Schaltjahr"
+        txt = "Das Jahr " + inputYear + " ist KEIN Schaltjahr"
         print(txt)
 
 
