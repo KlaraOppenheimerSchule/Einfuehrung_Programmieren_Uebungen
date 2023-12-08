@@ -1,5 +1,5 @@
 def get_grade_by_points(points):
-    #Points: https://1a-pruefung.de/wp-content/uploads/2017/11/notenschluessel.png
+    #Quelle: https://1a-pruefung.de/wp-content/uploads/2017/11/notenschluessel.png
     if points > 5:
         if points <= 11 and points > 5:
             return 5.9
@@ -51,7 +51,7 @@ def get_grade_by_points(points):
             return 3.6
         elif points == 65:
             return 3.5
-        # 66 Missing in the list? I put it on 3.4
+        # 66 fehlt auf der Seite
         elif points == 66 or points == 67:
             return 3.4
         elif points == 68 or points == 69:
