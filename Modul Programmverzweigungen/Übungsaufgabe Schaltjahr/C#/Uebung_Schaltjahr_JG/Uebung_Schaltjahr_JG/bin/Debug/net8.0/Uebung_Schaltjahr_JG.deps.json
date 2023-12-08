@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Uebung_Schaltjahr_JG/1.0.0": {
+        "runtime": {
+          "Uebung_Schaltjahr_JG.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Uebung_Schaltjahr_JG/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
