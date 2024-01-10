@@ -1,0 +1,70 @@
+[Zusätzlich gelaadene Bibliotheken]
+Binde "Duden/Ausgabe" ein.
+Binde "Duden/Mathe" ein.
+
+[Aufgabe 1]
+Die Funktion Summe mit den Parametern x und y vom Typ Zahl und Zahl, gibt eine Zahl zurück, macht:
+    Gib (x plus y) zurück.
+
+Und kann so benutzt werden:
+    "Die Summe aus <x> und <y>!"
+
+[Aufgabe 2]
+Die Funktion Quadrat mit dem Parameter x vom Typ Kommazahl, gibt eine Kommazahl zurück, macht:
+    Gib (x zum quadrat) zurück.
+
+Und kann so benutzt werden:
+    "Das Quadrat von <x>!"
+
+[Aufgabe 3]
+Die Funktion IstPositiv mit dem Parameter x vom Typ Zahl, gibt einen Wahrheitswert zurück, macht:
+    Gib (x eine gerade Zahl ist)zurück.
+
+Und kann so benutzt werden:
+    "Ist <x> eine gerade Zahl?"
+
+[Aufgabe 4]
+Die Funktion Fakultät mit dem Parameter x vom Typ Zahl, gibt eine Zahl zurück, macht:
+    Wenn x gleich 0 ist, gib 1 zurück.
+    Gib (x mal (Die Fakultät von (x minus 1)!)) zurück. 
+
+Und kann so benutzt werden:
+    "Die Fakultät von <x>!"
+
+[Aufgabe 5]
+Die Funktion FibRekursion mit den Parametern x, y, z und ß vom Typ Zahl, Zahl, Zahl und Zahl, gibt eine Zahl zurück, macht:
+    Wenn z gleich ß ist, gib y zurück.
+    Gib (Rekursion y (y plus x) (z plus 1) ß) zurück.
+
+Und kann so benutzt werden:
+    "Rekursion <x> <y> <z> <ß>"
+
+Die Funktion Fibonacci mit dem Parameter x vom Typ Zahl, gibt eine Zahl zurück, macht:
+    Wenn x gleich 0 ist, gib 0 zurück.
+    Wenn aber x kleiner als 0 ist, Schreibe den Text "ERROR: Negative Werte werden nicht akzeptiert!".
+    Gib (Rekursion 0 1 1 x) zurück.
+
+Und kann so benutzt werden:
+    "Die Fibonacci Zahl zu <x>!"
+
+[--Ausgabe--]
+
+[Aufgabe 1]
+Schreibe den Text "Summe: ".
+Schreibe (Die Summe aus 5 und 5!).
+
+[Aufgabe 2]
+Schreibe den Text "\nQuadrat: ".
+Schreibe (Das Quadrat von 3,0!).
+
+[Aufgabe 3]
+Schreibe den Text "\nIst Gerade: ".
+Schreibe (Ist 4 eine gerade Zahl?).
+
+[Aufgabe 4]
+Schreibe den Text "\nFakultät: ".
+Schreibe (Die Fakultät von 5!).
+
+[Aufgabe 5]
+Schreibe den Text "\nFibonacci: ".
+Schreibe (Die Fibonacci Zahl zu 8!).
