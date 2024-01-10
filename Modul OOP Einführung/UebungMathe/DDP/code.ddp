@@ -24,8 +24,9 @@ Und kann so benutzt werden:
     "Ist <x> eine gerade Zahl?"
 
 [Aufgabe 4]
-Die Funktion Fakultät mit dem Parameter x vom Typ Zahl, gibt eine Zahl zurück, macht:
-    Wenn x gleich 0 ist, gib 1 zurück.
+Die öffentliche Funktion Fakultät mit dem Parameter x vom Typ Zahl, gibt eine Zahl zurück, macht:
+    Wenn x kleiner als 0 ist, Speichere (x mal -1) als Zahl in x.
+	Wenn x gleich 0 ist, gib 1 zurück.
     Gib (x mal (Die Fakultät von (x minus 1)!)) zurück. 
 
 Und kann so benutzt werden:
