@@ -1,0 +1,7 @@
+
+array1 = list(range(10))
+
+array2 = array1[::-1]
+
+print("A1:", array1)
+print("A2:", array2)
