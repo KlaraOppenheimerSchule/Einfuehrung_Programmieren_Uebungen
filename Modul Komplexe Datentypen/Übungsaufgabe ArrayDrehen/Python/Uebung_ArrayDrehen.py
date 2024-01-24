@@ -1,0 +1,1 @@
+// Create Erstellen Sie ein Array mit den Zahlen von 0 bis 9. Erstellen Sie anschließend ein zweites Array und weisen Sie diesen den Inhalt des ersten Arrays in umgekehrter Reihenfolge zu. Folgendes Beispiel soll dies simulieren. [0,1,2,3,4,5,6,7,8,9]→[9,8,7,6,5,4,3,2,1,0]. 
