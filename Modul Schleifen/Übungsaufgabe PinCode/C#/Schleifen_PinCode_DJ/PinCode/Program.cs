@@ -13,6 +13,9 @@ namespace PinCode
             PinCodeEach();
         }
 
+        /// <summary>
+        /// Pin Code Generator with for loop
+        /// </summary>
         public static void PinCodeFor()
         {
             Random rng = new Random();
@@ -32,10 +35,12 @@ namespace PinCode
                 Console.WriteLine();
 
             }
-            Console.WriteLine("Operation finished");
             Console.ReadLine();
         }
 
+        /// <summary>
+        /// Pin Code Generator using for-each Loop
+        /// </summary>
         public static void PinCodeEach()
         {
             Random rng = new Random();
