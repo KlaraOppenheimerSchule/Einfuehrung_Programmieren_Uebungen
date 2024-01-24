@@ -1,0 +1,7 @@
+C:\Users\Admin36c8a5c787\Documents\Visual Studio 2019\KOSFork\Modul Schleifen\Übungsaufgabe Abschreibung\C#\Schleifen_Abschreibung_DJ\Abschreibung\bin\Debug\Abschreibung.exe.config
+C:\Users\Admin36c8a5c787\Documents\Visual Studio 2019\KOSFork\Modul Schleifen\Übungsaufgabe Abschreibung\C#\Schleifen_Abschreibung_DJ\Abschreibung\bin\Debug\Abschreibung.exe
+C:\Users\Admin36c8a5c787\Documents\Visual Studio 2019\KOSFork\Modul Schleifen\Übungsaufgabe Abschreibung\C#\Schleifen_Abschreibung_DJ\Abschreibung\bin\Debug\Abschreibung.pdb
+C:\Users\Admin36c8a5c787\Documents\Visual Studio 2019\KOSFork\Modul Schleifen\Übungsaufgabe Abschreibung\C#\Schleifen_Abschreibung_DJ\Abschreibung\obj\Debug\Abschreibung.csproj.AssemblyReference.cache
+C:\Users\Admin36c8a5c787\Documents\Visual Studio 2019\KOSFork\Modul Schleifen\Übungsaufgabe Abschreibung\C#\Schleifen_Abschreibung_DJ\Abschreibung\obj\Debug\Abschreibung.csproj.CoreCompileInputs.cache
+C:\Users\Admin36c8a5c787\Documents\Visual Studio 2019\KOSFork\Modul Schleifen\Übungsaufgabe Abschreibung\C#\Schleifen_Abschreibung_DJ\Abschreibung\obj\Debug\Abschreibung.exe
+C:\Users\Admin36c8a5c787\Documents\Visual Studio 2019\KOSFork\Modul Schleifen\Übungsaufgabe Abschreibung\C#\Schleifen_Abschreibung_DJ\Abschreibung\obj\Debug\Abschreibung.pdb
