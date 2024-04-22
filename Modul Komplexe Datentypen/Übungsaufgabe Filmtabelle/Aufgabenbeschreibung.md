@@ -6,12 +6,6 @@
 1.	Speichern Sie den Inhalt folgender Datenstruktur mit einen komplexen Datentyp Ihrer Wahl ab und geben Sie den Inhalt anschließend aus: 
 
 
-1	    Es weihnachtet schwer	    Simpsons Roasting on an Open Fire	
-2	    Bart wird ein Genie	        Bart the Genius	                    
-3	    Der Versager	            Homer’s Odyssey	                   
-
-
-
 <table>
   <thead>
     <tr>
@@ -23,16 +17,23 @@
   <tbody>
     <tr>
       <td>1</td>
-      <td>2</td>
-      <td>3</td>
+      <td>Es weihnachtet schwer</td>
+      <td>Simpsons Roasting on an Open Fire	</td>
     </tr>
     <tr>
-      <td>Es weihnachtet schwer	</td>
-      <td>Bart wird ein Genie	 </td>
-      <td>Der Versager</td>
+   <td>2</td>
+      <td> Bart wird ein Genie</td>
+      <td>Bart the Genius</td>
     </tr>
+    <tr>
+     <td>3</td>
+      <td>Der Versager</td>
+      <td>Homer’s Odyssey</td>
+  </tr>
   </tbody>
 </table>
+
+
 ## Vertiefungsoptionen
 
 
