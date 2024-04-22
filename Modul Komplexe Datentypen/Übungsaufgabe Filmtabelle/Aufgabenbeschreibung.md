@@ -11,6 +11,28 @@ Nr.	    Titel	                    Originaltitel	                    Dt. Erstauss
 3	    Der Versager	            Homer’s Odyssey	                    11. Okt. 1991
 4	    Eine ganz normale Familie	There’s No Disgrace Like Home	    13. Sep. 1991
 
+
+<table>
+  <thead>
+    <tr>
+      <th>Spalte 1</th>
+      <th>Spalte 2</th>
+      <th>Spalte 3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Inhalt</td>
+      <td>Inhalt</td>
+      <td>Inhalt</td>
+    </tr>
+    <tr>
+      <td>Inhalt</td>
+      <td>Inhalt</td>
+      <td>Inhalt</td>
+    </tr>
+  </tbody>
+</table>
 ## Vertiefungsoptionen
 
 
