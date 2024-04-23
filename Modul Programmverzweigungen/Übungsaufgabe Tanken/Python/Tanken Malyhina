@@ -1,0 +1,42 @@
+def tankkosten_berechnen(liter, sorte):
+    """
+    Berechnet die Tankkosten unter Berücksichtigung der Rabattaktion.
+    """
+    literpreis = {"normal": 1.50, "super": 1.80, "superplus": 2.00}
+
+    # Überprüfung, ob Rabatt gewährt wird (bei 100 Litern oder mehr)
+    if liter >= 100:
+        rabatt = 0.05  # 5% Rabatt
+    else:
+        rabatt = 0
+
+    # Berechnung der Gesamtkosten unter Berücksichtigung des Rabatts
+    gesamtkosten = liter * literpreis.get(sorte, 0) * (1 - rabatt)
+    return gesamtkosten
+
+def main():
+    # Benutzereingabe
+    try:
+        liter = float(input("Geben Sie die Anzahl der getankten Liter ein: "))
+        sorte = input("Geben Sie die Sorte ein (normal, super, superplus): ").lower()
+    except ValueError:
+        print("Ungültige Eingabe. Bitte geben Sie gültige Zahlen ein.")
+        return
+
+    # Überprüfung der Sorte
+    if sorte not in ["normal", "super", "superplus"]:
+        print("Ungültige Sorte. Bitte wählen Sie zwischen normal, super und superplus.")
+        return
+
+    # Berechnung der Tankkosten
+    kosten = tankkosten_berechnen(liter, sorte)
+
+    # Ausgabe der Ergebnisse
+    print(f"\nTankrechnung:")
+    print(f"Menge: {liter} Liter")
+    print(f"Sorte: {sorte.capitalize()}")
+    print(f"Kosten: {kosten:.2f} Euro")
+
+# Hauptprogramm aufrufen
+if __name__ == "__main__":
+    main()
