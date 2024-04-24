@@ -5,6 +5,8 @@ using namespace std;
 //Aufgabenstellung:
 //[x] Erstellen Sie ein Programm, das die Ziehung der Lottozahlen simuliert.
 //Füllen Sie zunächst ein Array mit sechs Zahlen, die zufällig über folgenden Befehl erzeugt werden: rand() % 49 + 1;
+//Anmerkung: damit die Zahlen ausreichend "zufällig" sind,
+//muss zunächst durch srand(time(NULL)) die auktuelle zeit als "Zufallsquelle" gewählt werden
 //[ ] Erstellen Sie eine Methode, die die Überprüfung der Zahlen selbstständig ausführt.
 
 
