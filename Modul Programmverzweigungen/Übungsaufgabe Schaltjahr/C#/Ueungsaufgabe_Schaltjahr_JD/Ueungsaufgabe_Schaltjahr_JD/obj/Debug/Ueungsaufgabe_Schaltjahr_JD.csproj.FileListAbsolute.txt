@@ -1,0 +1,7 @@
+C:\Users\Admin36c8a5c787\Documents\Visual Studio 2019\KOS\Modul Programmverzweigungen\Übungsaufgabe Schaltjahr\C#\Ueungsaufgabe_Schaltjahr_JD\Ueungsaufgabe_Schaltjahr_JD\bin\Debug\Ueungsaufgabe_Schaltjahr_JD.exe.config
+C:\Users\Admin36c8a5c787\Documents\Visual Studio 2019\KOS\Modul Programmverzweigungen\Übungsaufgabe Schaltjahr\C#\Ueungsaufgabe_Schaltjahr_JD\Ueungsaufgabe_Schaltjahr_JD\bin\Debug\Ueungsaufgabe_Schaltjahr_JD.exe
+C:\Users\Admin36c8a5c787\Documents\Visual Studio 2019\KOS\Modul Programmverzweigungen\Übungsaufgabe Schaltjahr\C#\Ueungsaufgabe_Schaltjahr_JD\Ueungsaufgabe_Schaltjahr_JD\bin\Debug\Ueungsaufgabe_Schaltjahr_JD.pdb
+C:\Users\Admin36c8a5c787\Documents\Visual Studio 2019\KOS\Modul Programmverzweigungen\Übungsaufgabe Schaltjahr\C#\Ueungsaufgabe_Schaltjahr_JD\Ueungsaufgabe_Schaltjahr_JD\obj\Debug\Ueungsaufgabe_Schaltjahr_JD.csproj.AssemblyReference.cache
+C:\Users\Admin36c8a5c787\Documents\Visual Studio 2019\KOS\Modul Programmverzweigungen\Übungsaufgabe Schaltjahr\C#\Ueungsaufgabe_Schaltjahr_JD\Ueungsaufgabe_Schaltjahr_JD\obj\Debug\Ueungsaufgabe_Schaltjahr_JD.csproj.CoreCompileInputs.cache
+C:\Users\Admin36c8a5c787\Documents\Visual Studio 2019\KOS\Modul Programmverzweigungen\Übungsaufgabe Schaltjahr\C#\Ueungsaufgabe_Schaltjahr_JD\Ueungsaufgabe_Schaltjahr_JD\obj\Debug\Ueungsaufgabe_Schaltjahr_JD.exe
+C:\Users\Admin36c8a5c787\Documents\Visual Studio 2019\KOS\Modul Programmverzweigungen\Übungsaufgabe Schaltjahr\C#\Ueungsaufgabe_Schaltjahr_JD\Ueungsaufgabe_Schaltjahr_JD\obj\Debug\Ueungsaufgabe_Schaltjahr_JD.pdb

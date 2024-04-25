@@ -1,0 +1,7 @@
+C:\Users\Admin36c8a5c787\Documents\Visual Studio 2019\KOSFork\Modul Schleifen\Übungsaufgabe PinCode\C#\Schleifen_PinCode_DJ\PinCode\bin\Debug\PinCode.exe.config
+C:\Users\Admin36c8a5c787\Documents\Visual Studio 2019\KOSFork\Modul Schleifen\Übungsaufgabe PinCode\C#\Schleifen_PinCode_DJ\PinCode\bin\Debug\PinCode.exe
+C:\Users\Admin36c8a5c787\Documents\Visual Studio 2019\KOSFork\Modul Schleifen\Übungsaufgabe PinCode\C#\Schleifen_PinCode_DJ\PinCode\bin\Debug\PinCode.pdb
+C:\Users\Admin36c8a5c787\Documents\Visual Studio 2019\KOSFork\Modul Schleifen\Übungsaufgabe PinCode\C#\Schleifen_PinCode_DJ\PinCode\obj\Debug\PinCode.csproj.AssemblyReference.cache
+C:\Users\Admin36c8a5c787\Documents\Visual Studio 2019\KOSFork\Modul Schleifen\Übungsaufgabe PinCode\C#\Schleifen_PinCode_DJ\PinCode\obj\Debug\PinCode.csproj.CoreCompileInputs.cache
+C:\Users\Admin36c8a5c787\Documents\Visual Studio 2019\KOSFork\Modul Schleifen\Übungsaufgabe PinCode\C#\Schleifen_PinCode_DJ\PinCode\obj\Debug\PinCode.exe
+C:\Users\Admin36c8a5c787\Documents\Visual Studio 2019\KOSFork\Modul Schleifen\Übungsaufgabe PinCode\C#\Schleifen_PinCode_DJ\PinCode\obj\Debug\PinCode.pdb

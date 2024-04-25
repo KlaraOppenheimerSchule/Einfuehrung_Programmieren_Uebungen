@@ -1,0 +1,9 @@
+# Erstes Array erstellen
+array1 = list(range(10))
+
+# Zweites Array erstellen und umgekehrte Reihenfolge zuweisen
+array2 = array1[::-1]
+
+# Ausgabe der beiden Arrays
+print("Original Array:", array1)
+print("Umgekehrtes Array:", array2)
