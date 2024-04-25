@@ -1,0 +1,44 @@
+class Mathe:
+    @staticmethod
+    def zahlen_von_1_bis_1000():
+        # Iteriere über die Zahlen von 1 bis 1000
+        for zahl in range(1, 1001):
+            print(zahl)
+
+    @staticmethod
+    def zahlen_von_1000_bis_0():
+        # Iteriere rückwärts von 1000 bis 0 in Schritten von 100
+        for zahl in range(1000, -1, -100):
+            print(zahl)
+
+    @staticmethod
+    def halbieren_bis_kleiner_als_0_001(zahl):
+        # Iteriere und halbiere die Zahl, bis sie kleiner als 0,001 ist
+        while zahl > 0.001:
+            print(zahl)
+            zahl /= 2
+
+    @staticmethod
+    def kleine_einmaleins():
+        # Geschachtelte Schleife für das kleine Einmaleins
+        for i in range(1, 11):
+            for j in range(1, 11):
+                # Gib das Produkt und einen Tabulator aus
+                print(f"{i} * {j} = {i * j}\t", end="")
+            # Neue Zeile für jede Reihe
+            print()
+
+# Beispielaufrufe
+Mathe.zahlen_von_1_bis_1000()
+
+print("\n" + "=" * 30 + "\n")
+
+Mathe.zahlen_von_1000_bis_0()
+
+print("\n" + "=" * 30 + "\n")
+
+Mathe.halbieren_bis_kleiner_als_0_001(16)
+
+print("\n" + "=" * 30 + "\n")
+
+Mathe.kleine_einmaleins()
