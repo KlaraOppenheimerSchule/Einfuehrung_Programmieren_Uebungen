@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 #include <random>
 using namespace std;
 
@@ -10,21 +11,39 @@ using namespace std;
 //[ ] Erstellen Sie eine Methode, die die Überprüfung der Zahlen selbstständig ausführt.
 
 
-void generateNumbers(){
-    int randomNumbers[6];
-    srand(time(NULL));
-    for (int i : randomNumbers){
-        i = rand() % 49 + 1;
-        cout << i << " ";
-            }
-    }
+int randomNumbers[6];
 
-void giveFeedback(){
-    if(true){
+void giveFeedback(bool win){
+    if(win){
         cout << endl << "Glückwunsch, Sie haben gewonnen";
     }
     else{
         cout << endl << "Leider verloren";
+    }
+}
+
+void checkNumbers(int userNumbers[]){
+    vector<int> equalNumbers;
+    for (int i = 0; i < 6; i++)
+    {
+        if (userNumbers[i] = randomNumbers[i])
+        {
+            equalNumbers.push_back(userNumbers[i]);
+        }
+    }
+    if (equalNumbers.size() == 6)
+    {
+        
+    }
+    
+    return false;
+}
+
+void generateNumbers(){
+    srand(time(NULL));
+    for (int i : randomNumbers){
+        i = rand() % 49 + 1;
+        cout << i << " ";
     }
 }
 
@@ -37,11 +56,12 @@ int main(){
         userNumbers[i] = userNumber;
         i++;
     }
-cout << endl << "Lottozahlen:" << endl;
+    cout << endl << "Lottozahlen:\n";
     generateNumbers();
-    cout << endl << "Nutzereingabe:" << endl;
+    cout << endl << "Nutzereingabe:\n";
     for (int i : userNumbers){
         cout << i << " ";
             }
         return 0;
+    checkNumbers(userNumbers);
 }
