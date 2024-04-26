@@ -1,9 +1,9 @@
 ﻿using Kinosaal_JDX;
 
 Array Kinosaal = new char[4, 5];
-//Kinosaal.Initialize();
-//char reserved = '1';
 System.Random r = new System.Random();
+
+// Fills with empty seats
 for (int i = 0; i < 5; i++)
 {
     for (int j = 0; j < 4; j++)
@@ -12,25 +12,14 @@ for (int i = 0; i < 5; i++)
     }
 }
 
-//for (int i = 0; i < 4; i++)
-//{
-//    Kinosaal.SetValue(reserved, r.Next(4), r.Next(5));
-//}
-
 Logic l = new Logic();
 l.open(Kinosaal);
 l.Plan(Kinosaal);
-//for (int l = 0; l < 5; l++)
-//{
-//    for (int k = 0; k < 4; k++)
-//    {
-//        Console.Write(" |" + Kinosaal.GetValue(k, l) + "| ");
-//    }
-//    Console.WriteLine();
-//}
+
 Console.WriteLine();
 Console.WriteLine("Please enter where youd like to reserve a seat");
-Console.WriteLine("Form: [Roow], [Column]");
+Console.WriteLine("Form: [Row], [Column]");
+
 Boolean readoperation = true;
 while (readoperation)
 {
@@ -54,5 +43,6 @@ while (readoperation)
         }
     }
 }
+
 l.Plan(Kinosaal);
 l.save(Kinosaal);

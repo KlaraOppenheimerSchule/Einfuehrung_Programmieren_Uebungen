@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Kinosaal_JDX")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+486d56dff03d7dfaf3547daf155520da8b9be2e3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df8c49aabe4c4f74513bf2010d7f5fd2ed7be649")]
 [assembly: System.Reflection.AssemblyProductAttribute("Kinosaal_JDX")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Kinosaal_JDX")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

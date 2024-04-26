@@ -6,8 +6,15 @@ using System.Threading.Tasks;
 
 namespace Kinosaal_JDX
 {
+    /// <summary>
+    /// Logic Class for the Kinosaal Task
+    /// </summary>
     public class Logic
     {
+        /// <summary>
+        /// This returns a Visual Plan for the Cinema, showing which seaths are reserved and which are empty
+        /// </summary>
+        /// <param name="_array"> The Array thats currently used by the Program </param>
         public void Plan(Array _array)
         {
             for (int l = 0; l < 5; l++)
@@ -20,9 +27,13 @@ namespace Kinosaal_JDX
             }
         }
 
+        /// <summary>
+        /// Save FIle Method, for saving the Array as an .txt File in Public Documents
+        /// </summary>
+        /// <param name="_array">The Array thats currently used by the Program, that provides the data</param>
         public void save(Array _array)
         {
-            FileStream stream = System.IO.File.OpenWrite("C:\\Users\\jadre\\OneDrive\\Dokumente\\kinosaal.txt");
+            FileStream stream = System.IO.File.OpenWrite("C:\\Users\\Public\\Documents\\kinosaal.txt");
             using (stream)
             {
                 StreamWriter writer = new StreamWriter(stream);
@@ -37,15 +48,19 @@ namespace Kinosaal_JDX
             }
 
         }
-
+        /// <summary>
+        /// Load/Open Method for recovering the saved information from the .txt File in Public Documents
+        /// </summary>
+        /// <param name="_array">The Array currently used by the Program, where the data should be stored in</param>
+        /// <returns></returns>
         public Array open(Array _array)
         {
 
-
-            FileStream stream = File.OpenRead("C:\\Users\\jadre\\OneDrive\\Dokumente\\kinosaal.txt");
+            FileStream stream = File.OpenRead("C:\\Users\\Public\\Documents\\kinosaal.txt");
             using (stream)
             {
                 StreamReader reader = new StreamReader(stream);
+                Console.WriteLine("Recovering Savefile");
                 while (!reader.EndOfStream)
                 {
                     try
