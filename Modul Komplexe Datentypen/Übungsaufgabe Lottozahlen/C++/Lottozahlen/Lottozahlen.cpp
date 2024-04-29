@@ -22,8 +22,9 @@ void giveFeedback(bool win){
     }
 }
 
-void checkNumbers(int userNumbers[]){
+void checkNumbers(int userNumbers[], int randomNumbers[]){
     vector<int> equalNumbers;
+    bool win;
     for (int i = 0; i < 6; i++)
     {
         if (userNumbers[i] = randomNumbers[i])
@@ -31,12 +32,10 @@ void checkNumbers(int userNumbers[]){
             equalNumbers.push_back(userNumbers[i]);
         }
     }
-    if (equalNumbers.size() == 6)
-    {
-        
-    }
-    
-    return false;
+    if (equalNumbers.size() == 6){win = true;}
+    else{win = false;}
+
+    giveFeedback(win);
 }
 
 void generateNumbers(){
@@ -61,7 +60,7 @@ int main(){
     cout << endl << "Nutzereingabe:\n";
     for (int i : userNumbers){
         cout << i << " ";
-            }
-        return 0;
-    checkNumbers(userNumbers);
+    }
+    checkNumbers(userNumbers, randomNumbers);
+    return 0;
 }
