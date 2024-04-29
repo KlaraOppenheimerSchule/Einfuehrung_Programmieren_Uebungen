@@ -8,10 +8,7 @@ using namespace std;
 //Füllen Sie zunächst ein Array mit sechs Zahlen, die zufällig über folgenden Befehl erzeugt werden: rand() % 49 + 1;
 //Anmerkung: damit die Zahlen ausreichend "zufällig" sind,
 //muss zunächst durch srand(time(NULL)) die auktuelle zeit als "Zufallsquelle" gewählt werden
-//[ ] Erstellen Sie eine Methode, die die Überprüfung der Zahlen selbstständig ausführt.
-
-
-int randomNumbers[6];
+//[x] Erstellen Sie eine Methode, die die Überprüfung der Zahlen selbstständig ausführt.
 
 void giveFeedback(bool win){
     if(win){
@@ -27,7 +24,7 @@ void checkNumbers(int userNumbers[], int randomNumbers[]){
     bool win;
     for (int i = 0; i < 6; i++)
     {
-        if (userNumbers[i] = randomNumbers[i])
+        if (userNumbers[i] == randomNumbers[i])
         {
             equalNumbers.push_back(userNumbers[i]);
         }
@@ -38,12 +35,18 @@ void checkNumbers(int userNumbers[], int randomNumbers[]){
     giveFeedback(win);
 }
 
-void generateNumbers(){
+vector<int> generateNumbers(){
     srand(time(NULL));
-    for (int i : randomNumbers){
+    vector<int> randomNumbers(6);
+    for (int& i : randomNumbers){
         i = rand() % 49 + 1;
         cout << i << " ";
     }
+    return randomNumbers;
+}
+
+bool isValidNumber(int number) {
+    return number >= 1 && number <= 49;
 }
 
 int main(){
@@ -51,16 +54,21 @@ int main(){
     int userNumber;
     cout << "Bitte geben Sie ihre Zahlen einzeln ein:" << endl;
     for (int i = 0; i < 6;){
-                cin >> userNumber;
-        userNumbers[i] = userNumber;
-        i++;
+        cin >> userNumber;
+        if (isValidNumber(userNumber)){
+            userNumbers[i] = userNumber;
+            i++;
+        }
+        else{ 
+            cout << "Ungültige Eingabe. Bitte geben sie eine Zahl zwischen 1 und 49 ein." << endl;
+        }
     }
     cout << endl << "Lottozahlen:\n";
-    generateNumbers();
+    vector<int> randomNumbers = generateNumbers();
     cout << endl << "Nutzereingabe:\n";
     for (int i : userNumbers){
         cout << i << " ";
     }
-    checkNumbers(userNumbers, randomNumbers);
+    checkNumbers(userNumbers, randomNumbers.data());
     return 0;
 }
