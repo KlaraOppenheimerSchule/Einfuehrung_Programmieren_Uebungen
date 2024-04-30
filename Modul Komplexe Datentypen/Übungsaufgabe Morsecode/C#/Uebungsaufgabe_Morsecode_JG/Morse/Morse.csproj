@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="C:\Users\Julia Gütling\source\Repos\Einfuehrung_Programmieren_Uebungen\Modul Komplexe Datentypen\Übungsaufgabe Morsecode\C#\Uebungsaufgabe_Morsecode_JG\Program.cs" Link="Program.cs" />
+  </ItemGroup>
+
+</Project>
