@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci_JDX", "Fibonacci_JDX\Fibonacci_JDX.csproj", "{525C6095-57A2-4D67-A1F6-6F55F798BE0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{525C6095-57A2-4D67-A1F6-6F55F798BE0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{525C6095-57A2-4D67-A1F6-6F55F798BE0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{525C6095-57A2-4D67-A1F6-6F55F798BE0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{525C6095-57A2-4D67-A1F6-6F55F798BE0E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A39900E1-B39E-45B6-BD44-775ACB9A34AE}
+	EndGlobalSection
+EndGlobal
