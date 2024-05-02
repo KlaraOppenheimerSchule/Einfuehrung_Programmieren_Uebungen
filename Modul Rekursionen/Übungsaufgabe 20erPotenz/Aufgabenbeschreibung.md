@@ -9,6 +9,6 @@ Mathematische Darstellung:
 ![20erPotenz](https://github.com/KlaraOppenheimerSchule/Einfuehrung_Programmieren_Uebungen/blob/main/Modul%20Rekursionen/%C3%9Cbungsaufgabe%2020erPotenz/20er%20Potenz.JPG)
 
 Beispiel: 
-20 ^ 3 = 20*20*20
+20 ^ 3 = 20 * 20 * 20
 
 
