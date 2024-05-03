@@ -8,6 +8,8 @@ Erstellen Sie eine rekursive Lösung für die Berechnung des größten gemeinsam
 
 Der größte gemeinsame Teiler (ggT) ist das Gegenstück zum kleinste gemeinsame Vielfache (kgV). Der ggT ist die größte natürliche Zahl, durch die sich zwei ganze Zahlen ohne Rest teilen lassen. 
 
+Hier ein Link zu einem sehr empfehlenswerten Erklärungsvideo: https://www.youtube.com/watch?v=W8oIvMTr7PM
+
 Beispiel:
 12 ist durch die folgenden Zahlen ohne Rest teilbar: 1, 2, 3, 4, 6, 12.
 18 hat diese Teiler: 1, 2, 3, 6, 9, 18.
