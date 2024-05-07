@@ -9,19 +9,18 @@ std::vector<int> ergebnisse;
 
 int fib(const int& n){
 
-    int ergebnis = 0;
-    
-    if(n == 1){
+    int ergebnis;
+
+    if(n <= 0){
+        ergebnis = 0;
+    }    
+    else if(n == 1){
         ergebnis = 1;
-        std::cout << ergebnis << ", ";
-    }
-    else if(n == 2){
-        ergebnis = fib(n-1);
-        std::cout << ergebnis << ", ";
+        std::cout << ergebnis;
     }
     else{
-        ergebnis = fib(n-1)+fib(n-2);
-        std::cout << ergebnis << ", ";
+        ergebnis = fib(n-2)+fib(n-1);
+        std::cout << ", " << ergebnis;
     }
 
     return ergebnis;
