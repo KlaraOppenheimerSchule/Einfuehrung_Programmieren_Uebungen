@@ -1,4 +1,4 @@
-# Aufgabe Potzenz
+# Aufgabe Potenz
 
 ## Schwierigkeitsgrad: **
 
