@@ -1,0 +1,1 @@
+FROM af.flyeralarm/base-docker-dev/php/cli-8.0-alpine:latest

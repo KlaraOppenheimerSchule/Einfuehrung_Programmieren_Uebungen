@@ -1,0 +1,22 @@
+version: '3.5'
+services:
+  nginx:
+    image: af.flyeralarm/newproject/nginx:dev
+    volumes:
+      - ./../../code/public:/var/www/html/public
+    ports:
+      - "80:80"
+
+  php:
+    image: af.flyeralarm/newproject/php:dev
+    volumes:
+      - ./../../code:/var/www/html
+
+  database:
+    image: af.flyeralarm/newproject/database:dev
+    volumes:
+      - ./../../database:/var/lib/mysql:rw
+    environment:
+      - MYSQL_ROOT_PASSWORD=admin
+    ports:
+      - "3306:3306"
