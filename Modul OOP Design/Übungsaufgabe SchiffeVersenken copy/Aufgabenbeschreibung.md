@@ -7,13 +7,13 @@ Simulieren Sie in Form einer objektorientierten Programmierung eine Miniversion 
 
 Wählen Sie bei der Implementierung zwischen Variante 1,2 oder 3 aus.
 
-# Variante 1: Mensch vs. Mensch
+### Variante 1: Mensch vs. Mensch
 Es sollen zwei Menschen nacheinander ihre Schiffe setzen und anschließend nacheinander versuchen, die Schiffe des anderen zu treffen. Das Programm gibt den Gewinner aus.
 
-# Variante 2: Mensch vs. Computer
+### Variante 2: Mensch vs. Computer
 Es soll ein Mensch seine Schiffe setzen, ebenso ein Computerspieler automatisiert. Anschließend versuchen beide nacheinander, die Schiffe des anderen zu treffen. Das Programm gibt den Gewinner aus.
 
-# Variante 2: Computer vs. Computer
+### Variante 2: Computer vs. Computer
 Es sollen zwei Computer nacheinander ihre Schiffe setzen und anschließend nacheinander versuchen, die Schiffe des anderen zu treffen. Das Programm gibt den Gewinner aus.
 
 
