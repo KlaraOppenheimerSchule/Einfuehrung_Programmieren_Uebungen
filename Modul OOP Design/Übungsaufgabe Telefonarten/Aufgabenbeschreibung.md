@@ -5,6 +5,7 @@
 ## Text der Aufgabe
 In dieser Aufgabe betrachten wir verschiedene Arten von Telefonen. Es geht hierbei um den Entwurf einer entsprechenden Klassenhierarchie, mit der die verschiedenen Arten von Telefonen und ihren Komponenten sinnvoll in einem Programm gehandhabt werden können. 
 •	Festnetztelefone sind Telefone, die nur an einem bestimmten Standort genutzt werden können, da sie mit dem Festnetz verbunden sind. Für diese Telefone ist der Standort bekannt.
+
 •	Ein Akku speichert seinen Füllstand in Prozent.
 •	Bei allen Telefonen wird die Lautstärke ganzzahlig in Dezibel gespeichert.
 •	Ein Teil der Festnetztelefone ist stationär, d.h., sie sind fest an einem Standort, wie z.B. der Wohnung oder dem Büro, installiert und können nicht mitgenommen werden.
