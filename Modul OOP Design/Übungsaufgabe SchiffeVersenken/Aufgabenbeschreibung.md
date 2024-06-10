@@ -1,25 +1,22 @@
-# Aufgabe Schiffe versenken Mini
+# Aufgabe Raumverwaltung
 
 ## Schwierigkeitsgrad: * * * *
 
 ## Text der Aufgabe
-Simulieren Sie in Form einer objektorientierten Programmierung eine Miniversion des Spiels Schiffe versenken. Miniversion deshalb, da das Spiel folgende Reduzierungen beinhaltet: Es gibt nur 3*3 Felder, jeder Spieler hat drei Schiffe, die zudem jeweils nur ein Feld groß sind, es treten zwei Computerspieler gegeneinander an. 
+Ihre Aufgabe ist es, eine objektorientierte Datenstruktur zur Verwaltung von Räumen an einer Berufsschule zu entwerfen. 
+•	Jeder Raum wird durch seine Nummer gekennzeichnet.
+•	Ein Seminarraum ist ein Raum, der sich durch die Fläche seiner Tafel auszeichnet. Außerdem ist für einen Seminarraum relevant, ob dort ein Beamer vorhanden ist.
+•	Ein Klassenzimmer ist ein Raum, für den neben der Fläche der Tafel auch die Anzahl der Fenster speichert.
+•	Neben den Räumen mit Tafel gibt es auch Räume, die als Büros genutzt werden. Für diese Räume ist ein wichtiges Attribut, auf welcher Etage sie sich befinden. 
+•	Jeder Raum verfügt über die Methode lichtAnschalten
+•	Ein Lehrerbüro ist ein Büro, für das der Name des Lehrers wichtig ist.
+•	Ein Rechnerraum ist ein Büro, das mit einer bestimmten Datenübertragungsrate an das Netzwerk der Berufsschule angeschlossen ist.
+•	Alle Räume mit Tafeln sind entweder Seminarräume oder Klassenzimmer. Für diese Räume ist bekannt, wie viele Sitzplätze sie haben. Es kann aber Büros geben, die weder Lehrerbüros noch Rechnerräume sind.
 
-Wählen Sie bei der Implementierung zwischen Variante 1,2 oder 3 aus.
-
-# Variante 1: Mensch vs. Mensch
-Es sollen zwei Menschen nacheinander ihre Schiffe setzen und anschließend nacheinander versuchen, die Schiffe des anderen zu treffen. Das Programm gibt den Gewinner aus.
-
-# Variante 2: Mensch vs. Computer
-Es soll ein Mensch seine Schiffe setzen, ebenso ein Computerspieler automatisiert. Anschließend versuchen beide nacheinander, die Schiffe des anderen zu treffen. Das Programm gibt den Gewinner aus.
-
-# Variante 2: Computer vs. Computer
-Es sollen zwei Computer nacheinander ihre Schiffe setzen und anschließend nacheinander versuchen, die Schiffe des anderen zu treffen. Das Programm gibt den Gewinner aus.
+Jedes Büro verfügt über eine Methode, mit der die Klimaanlage angeschaltet werden kann, wobie bei Lehrerbüros diese Methode überschrieben wurde.	
 
 Erstellen Sie hierzu zuerst ein Klassendigramm für die notwendigen Klassen und überführen Sie nach Rücksprache mit Ihrem Lehrer das Klassendiagramm anschließend in einen objektorientierten Code.
 
 ## Optionale Erweiterung
-•	Für jedes versenkte Schiff soll es die gleiche Anzahl an Punkte geben. Die Punkteanzahl soll als Konstante (siehe Doku zu Konstanten) in der Klasse Schiff vermerkt sein. 
-•	Auf der Resultatwebseite sollen nun nicht nur die Endergebnisse angezeigt werden, sondern auch die Ergebnisse jeder Runde dokumentiert sein.
-•	Ermöglichen Sie es, dass auch ein menschlicher Spieler gegen einen Computerspieler antreten kann.
-•	Ermöglichen Sie nun ein Spiel mit 10*10 Stellen und unterschiedlichen Schiffsgrößen (2*1, 1*2, 1*3,1*4,1*5).
+
+
