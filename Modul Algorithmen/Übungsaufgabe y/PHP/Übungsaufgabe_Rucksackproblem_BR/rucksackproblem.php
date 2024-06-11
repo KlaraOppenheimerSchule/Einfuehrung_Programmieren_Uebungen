@@ -67,16 +67,18 @@ function rucksackproblem($objects, $T)
 
         if ($gesamtgewicht <= $T && $gesamtwert > $G) {
             $G = $gesamtwert;
-            $beste_kombination = $gegenstandsliste; // Aktualisieren der besten Kombination
+            $kombinationsGewicht = $gesamtgewicht;
+            $besteKombination = $gegenstandsliste; // Aktualisieren der besten Kombination
         }
     }
 
-    return [$G, $beste_kombination];
+    return [$G, $besteKombination, $kombinationsGewicht];
 }
 
 $ergebnis = rucksackproblem($objects, $T);
 
 echo "Maximaler Gesamtwert: " . $ergebnis[0] . " €\n";
-echo "Beste Kombination von Gegenständen: " . implode(", ", $ergebnis[1]);
+echo "Beste Kombination von Gegenständen: " . implode(", ", $ergebnis[1]). "\n";
+echo "Das Gewicht dieser Kombination beträgt " . $ergebnis[2]. "kg\n";
 
 ?>
