@@ -1,47 +1,51 @@
 <?php
 
-//Tragkraft
-$T= 20;
+// Tragkraft
+$T = 20;
 
-
-// Wert(€), Gewicht(Kg), Bezeichnung
-$vase = [50,3,"vase"];
-$fernseher = [300,10,"fernseher"];
-$laptop = [150,2,"laptop"];
-$uhr = [400,7,"uhr"];
-
-$gewichte = [
-    $vase[0],
-    $fernseher[0],
-    $laptop[0],
-    $uhr[0]
-];
-
-$werte = [
-    $vase[1],
-    $fernseher[1],
-    $laptop[0],
-    $uhr[0]
+// Array mit den Gegenstandsbeschreibungen
+$objects = [
+    ["vase",        50,     3],
+    ["fernseher",   300,    10],
+    ["laptop",      150,    2],
+    ["uhr",         400,    7]
 ];
 
 
 
-
-function rucksackproblem($gewichte,$werte,$T)
+function rucksackproblem($objects, $T)
 {
-    // n ist die Anzahl an gegenständen
-    $n = count($gewichte);
+    //Anzahl der Gegenstände
+    $n = count($objects);
 
-    //bestmögliche Kombination (maximalerGesamtwert)
+    //Maximaler Gesamtwert
     $G = 0;
 
-    //Kombinationen durchgehen
+    for ($i = 0; $i < (1 << $n); $i++) {
+        $gesamtgewicht = 0;
+        $gesamtwert = 0;
+        $gegenstandsliste = [];
 
-    // WENN Kombinationswert Größer als $G UND kleiner als $T,
-    // DANN $G = Kombinationswert
+        for ($j = 0; $j < $n; $j++) {
+            if ($i & (1 << $j)) {
+                $gesamtgewicht += $objects[$j][2];
+                $gesamtwert += $objects[$j][1];
+                $gegenstandsliste[] = $objects[$j][0]; // Hinzufügen des Gegenstandsnamens zur Liste
+            }
+        }
 
-    return $G;
+        if ($gesamtgewicht <= $T && $gesamtwert > $G) {
+            $G = $gesamtwert;
+            $beste_kombination = $gegenstandsliste; // Aktualisieren der besten Kombination
+        }
+    }
 
+    return [$G, $beste_kombination];
 }
 
-echo rucksackproblem($gewichte,$werte,3);
+$ergebnis = rucksackproblem($objects, $T);
+
+echo "Maximaler Gesamtwert: " . $ergebnis[0] . " €\n";
+echo "Beste Kombination von Gegenständen: " . implode(", ", $ergebnis[1]);
+
+?>
