@@ -40,6 +40,6 @@ if __name__ == '__main__':
     e = 3
     print(f'Die Fakultät von {e} ist {fac(e)}')
 
-    # Task 6 (does not work for 0)
+    # Task 6
     f = 2
     print(f'Die Fibonacci Zahl zu {f} ist {fib(f)}')

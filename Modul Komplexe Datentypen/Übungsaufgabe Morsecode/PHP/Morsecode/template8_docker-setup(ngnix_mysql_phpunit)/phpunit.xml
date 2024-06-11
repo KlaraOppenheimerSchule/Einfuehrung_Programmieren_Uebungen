@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit stderr="false"
+         verbose="true"
+         colors="true"
+         cacheResultFile=".phpunit.result.cache"
+         bootstrap = "code/vendor/autoload.php">
+
+    <testsuites>
+        <testsuite name="vo">
+            <directory>code/tests/unit/voTest</directory>
+        </testsuite>
+        <testsuite name="page">
+            <directory>code/tests/unit/pageTest</directory>
+        </testsuite>
+
+    </testsuites>
+    <coverage includeUncoveredFiles="false"
+              processUncoveredFiles="true">
+        <include>
+            <directory suffix=".php">../src</directory>
+        </include>
+        <report>
+            <clover outputFile="reports/coverage/phpunit.coverage.xml"/>
+        </report>
+    </coverage>
+    <logging>
+        <junit outputFile="phpunit.report.xml"/>
+    </logging>
+</phpunit>

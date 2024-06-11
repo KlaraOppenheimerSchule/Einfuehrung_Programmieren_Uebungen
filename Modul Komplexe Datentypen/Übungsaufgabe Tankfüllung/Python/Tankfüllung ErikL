@@ -1,0 +1,10 @@
+ranges = [1020, 923, 780, 890]
+
+avarage = sum(ranges) / len(ranges)
+
+tank = 70
+
+fuel100 = (tank / avarage) * 100
+
+print(f"avarage range: {avarage:.2f} km")
+print(f"avarage fuel for 100km: {fuel100:.2f} L")
