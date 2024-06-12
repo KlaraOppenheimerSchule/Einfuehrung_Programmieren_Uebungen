@@ -1,5 +1,8 @@
 <?php
 
+//Zeitmessung
+$start = microtime(true);
+
 // Tragkraft
 $tragkraft = 20;
 
@@ -10,7 +13,7 @@ $objekte = [
     ["vase",       100,    7 ],
     ["fernseher",  200,    12],
     ["computer",   300,    3 ],
-    ["uhr",        150,    10]
+    ["uhr",        150,    10],
 ];
 
 
@@ -21,7 +24,6 @@ function rucksackproblem($objekte, $tragkraft)
 
     //Maximaler Gesamtwert
     $maximalerGesamtwert = 0;
-
 
     //Prüfen aller möglichen Kombinationen
     /*
@@ -47,7 +49,6 @@ function rucksackproblem($objekte, $tragkraft)
 
         $i < (1 << $n) in der For- Schleife bedeutet bei n=4 also das selbe wie $i < 16.
     */
-
     for ($i = 0; $i < (1 << $n); $i++) {
         $gesamtgewicht = 0;
         $gesamtwert = 0;
@@ -95,7 +96,6 @@ function rucksackproblem($objekte, $tragkraft)
 
         Das bedeutet, der Gegenstand mit Index 1 ist in der aktuellen Kombination nicht enthalten.
     */
-
             if ($i & (1 << $j)) {
                 $gesamtgewicht += $objekte[$j][2];      // Hinzufügen des Gewichts zum Gesamtgewicht
                 $gesamtwert += $objekte[$j][1];         // Hinzufügen des Werts zum Gesamtwert
@@ -119,4 +119,9 @@ echo "Maximaler Gesamtwert: " . $ergebnis[0] . " €\n";
 echo "Beste Kombination von Gegenständen: " . implode(", ", $ergebnis[1]). "\n";
 echo "Das Gewicht dieser Kombination beträgt " . $ergebnis[2]. "kg\n";
 
+
+//Zeitmessung
+$end = microtime(true);
+$time = $end - $start;
+echo number_format($time,10)*1000 . " MiliSekunden Laufzeit des Skripts";
 ?>
