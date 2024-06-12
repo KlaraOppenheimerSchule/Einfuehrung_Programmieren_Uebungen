@@ -42,10 +42,9 @@ print(f"Der maximale Wert, der im Rucksack mitgegeben werden kann, ist: {max_val
 
 
 ### Erklärung für die Kontrollstruktur:
-Gerne erkläre ich diese Codezeilen im Detail und auf einfache Weise:
 
 ### Codezeilen
-```python
+"""
 if weights[i - 1] <= w:
     dp[i][w] = max(dp[i - 1][w], dp[i - 1][w - weights[i - 1]] + values[i - 1])
 else:
@@ -53,7 +52,7 @@ else:
 ```
 
 ### Erklärung zur Kontrollstruktur
-'''
+
 1. **`if weights[i - 1] <= w:`**
    - Diese Zeile überprüft, ob das Gewicht des aktuellen Gegenstands (`weights[i - 1]`) kleiner oder gleich der aktuellen Kapazität des Rucksacks (`w`) ist.
    - `weights[i - 1]`: Da die Liste `weights` bei 0 beginnt, müssen wir `i - 1` verwenden, um den Index des aktuellen Gegenstands zu erhalten.
@@ -151,7 +150,7 @@ i\w 0 1 2 ... 10 11 ... 20 21 ... 30 ... 50
 - Wir wählen den höheren Wert, um die Tabelle zu füllen und den maximalen Wert im Rucksack zu erhalten.
 
 Hier ist die vereinfachte Darstellung der wichtigen Schritte zur Veranschaulichung:
-```
+
 i\w 0 1 2 ... 10 11 ... 20 21 ... 30 ... 50
 0   0 0 0 ...  0  0 ...  0  0 ...  0 ...  0
 1   0 0 0 ... 60 60 ... 60 60 ... 60 ... 60
@@ -160,4 +159,4 @@ i\w 0 1 2 ... 10 11 ... 20 21 ... 30 ... 50
 
 Auf diese Weise wird die DP-Tabelle iterativ gefüllt, und am Ende haben wir den maximalen Wert im Rucksack für die gegebene Kapazität.
 
-'''
+"""
