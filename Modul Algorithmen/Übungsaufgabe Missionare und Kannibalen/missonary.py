@@ -1,3 +1,5 @@
+
+
 # missionaries.py
 # Aus "Algorithmen in Python", Kapitel 2 
 # Copyright 2018 David Kopec
