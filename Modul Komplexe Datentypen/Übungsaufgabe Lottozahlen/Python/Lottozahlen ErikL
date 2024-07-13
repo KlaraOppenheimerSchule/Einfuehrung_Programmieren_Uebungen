@@ -1,0 +1,31 @@
+import random
+
+def draw():
+    lottoZahlen = random.sample(range(1, 50), 6)
+    return lottoZahlen
+
+def bets():
+    meineZahlen = []
+    print("Wähle 6 Zahlen zwischen 1 und 49:")
+    while len(meineZahlen) < 6:
+        try:
+            num = int(input(f"Zahl {len(meineZahlen) + 1}: "))
+            if 1 <= num <= 49 and num not in meineZahlen:
+                meineZahlen.append(num)
+            else:
+                print("Ungültige Zahl/Zahl schon benutzt")
+        except ValueError:
+            print("Keine gültige Zahl")
+    return meineZahlen
+
+lottoZahlen = draw()
+meineZahlen = bets()
+
+print("Lottozahlen:", lottoZahlen)
+print("Meine Zahlen:", meineZahlen)
+
+if lottoZahlen == meineZahlen:
+    print("Easy W!")
+else:
+    print("You Lose!")
+    

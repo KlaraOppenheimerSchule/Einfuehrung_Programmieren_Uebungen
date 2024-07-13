@@ -1,0 +1,74 @@
+using System;
+namespace Sorte
+{
+
+    class MergeSorte
+    {
+
+        static void Main()
+        {
+            int[] arr = { 7, 2, 4, 5, 9, 1, 3, 8, 6 };
+            int[] sortiert = MergeSort(arr);
+
+            Console.WriteLine("Unsortierter Array:" + string.Join(",", arr));
+            Console.WriteLine("Sortierter Array:" + string.Join(",", sortiert));
+        }
+        static int[] MergeSort(int[] arr)
+        {
+            if (arr.Length < 2)     //Abbruchbedingung
+            {
+                return arr;
+            }
+
+            int mitte = arr.Length / 2;     //Mitte des Arrays fürs Teilen
+
+            int[] links = new int[mitte];
+            int[] rechts = new int[arr.Length - mitte];
+
+
+            for (int i = 0; i < mitte; i++) //Befüllen der Arrays
+            {
+                links[i] = arr[i];
+            }
+
+            for (int i = mitte; i < arr.Length; i++)
+            {
+                rechts[i - mitte] = arr[i];
+            }
+
+            int[] linksSortiert = MergeSort(links);
+            int[] rechtsSortiert = MergeSort(rechts);
+
+            return Merge(linksSortiert, rechtsSortiert);
+        }
+
+        static int[] Merge(int[] links, int[] rechts)
+        {
+            int[] sortiert = new int[links.Length + rechts.Length];
+            int linksIndex = 0;
+            int rechtsIndex = 0;
+
+            for (int i = 0; i < sortiert.Length; i++)
+            {
+                if (linksIndex == links.Length) // Um ein Out of Bounts zu verhindern
+                {
+                    sortiert[i] = rechts[rechtsIndex++];
+                }
+                else if (rechtsIndex == rechts.Length) // Um ein Out of Bounts zu verhindern
+                {
+                    sortiert[i] = links[linksIndex++];
+                }
+                else if (links[linksIndex] < rechts[rechtsIndex])
+                {
+                    sortiert[i] = links[linksIndex++];
+                }
+                else
+                {
+                    sortiert[i] = rechts[rechtsIndex++];
+                }
+            }
+
+            return sortiert;
+        }
+    }
+}
