@@ -1,11 +1,13 @@
 <?php
 
-namespace Fuhrpark;
+namespace Fuhrpark\Rennwagen;
 
+use Fuhrpark\Rennwagen;
 
 class MajoretteTurbo extends Rennwagen
 {
     private int $anzahlFluegeltueren;
+
 
     public function __construct(int $anzahlFluegeltueren, string $hersteller, int $autoID)
     {
@@ -24,4 +26,5 @@ class MajoretteTurbo extends Rennwagen
     {
         echo "Uuhweemmn";
     }
+
 }

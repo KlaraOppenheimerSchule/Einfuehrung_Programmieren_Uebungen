@@ -1,10 +1,13 @@
 <?php
 
-namespace Fuhrpark;
+namespace Fuhrpark\Rennwagen;
+
+use Fuhrpark\Rennwagen;
 
 class FireTurbo extends Rennwagen
 {
     private bool $turboAktiviert;
+
 
     public function __construct(int $turboAktiviert,string $hersteller,int $autoID)
     {
@@ -13,7 +16,8 @@ class FireTurbo extends Rennwagen
     }
 
 
-    public function getTurboAktiviert(): bool {
+    public function getTurboAktiviert(): bool
+    {
         return $this->turboAktiviert;
     }
 
@@ -22,4 +26,5 @@ class FireTurbo extends Rennwagen
     {
         echo "Brummbrumm";
     }
+
 }

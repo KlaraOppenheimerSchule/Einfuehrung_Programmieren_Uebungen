@@ -1,10 +1,13 @@
 <?php
 
-namespace Fuhrpark;
+namespace Fuhrpark\Rennwagen;
+
+use Fuhrpark\Rennwagen;
 
 class Firebird extends Rennwagen
 {
     private int $wattanzahlUnterbodenbeleuchtung;
+
 
     public function __construct(int $wattanzahlUnterbodenbeleuchtung,string $hersteller,int $autoID)
     {
@@ -13,7 +16,8 @@ class Firebird extends Rennwagen
     }
 
 
-    public function getWattanzahlUnterbodenbeleuchtung(): int {
+    public function getWattanzahlUnterbodenbeleuchtung(): int
+    {
         return $this->wattanzahlUnterbodenbeleuchtung;
     }
 
@@ -22,4 +26,5 @@ class Firebird extends Rennwagen
     {
         echo "Brummbrumm";
     }
+
 }

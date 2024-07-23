@@ -2,7 +2,7 @@
 
 namespace Fuhrpark;
 
-class Rennwagen extends Fahrzeuge
+class Rennwagen extends Fahrzeug
 {
 
 }
