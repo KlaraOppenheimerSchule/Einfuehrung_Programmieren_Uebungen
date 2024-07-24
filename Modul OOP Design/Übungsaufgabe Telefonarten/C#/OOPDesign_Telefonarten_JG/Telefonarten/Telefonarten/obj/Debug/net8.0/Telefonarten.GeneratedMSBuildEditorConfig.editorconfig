@@ -1,0 +1,13 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Telefonarten
+build_property.ProjectDir = C:\Users\Julia Gütling\source\Repos\Einfuehrung_Programmieren_Uebungen\Modul OOP Design\Übungsaufgabe Telefonarten\C#\OOPDesign_Telefonarten_JG\Telefonarten\Telefonarten\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
