@@ -1,6 +1,6 @@
 <?php
 
-//Zeitmessung
+//Laufzeitmessung
 $start = microtime(true);
 
 // Tragkraft
@@ -36,7 +36,7 @@ function rucksackproblem($objekte, $tragkraft)
         in binär bedeutet das also,
         1 << 4
         ENTSPRICHT
-        10000
+        10000(bin)
 
         Dieses Ergebnis ist die Gesamtanzahl der möglichen Kombinationen der Gegenstände.
         Für vier Gegenstände gibt es 16 Kombinationen:
@@ -54,13 +54,22 @@ function rucksackproblem($objekte, $tragkraft)
         $gesamtwert = 0;
         $gegenstandsliste = [];
 
+
         for ($j = 0; $j < $n; $j++) {
+
+            /*
+             * PERFORMANCE !!! !!!
+            if ($gesamtgewicht > $tragkraft) {
+                break;
+            }*/
+
 
             //Vergleich ob in der Kombination gesetzt
             /*
         Die Bedingung if ($i & (1 << $j)) überprüft,
         ob der Gegenstand mit Index $j in der aktuellen Kombination enthalten ist,
-        indem sie prüft, ob das $j-te Bit in $i gesetzt ist.
+        indem sie prüft, ob das $j-te Bit in $
+    for ($i = 0; $i < (1 << $n); $i++) {i gesetzt ist.
 
         Beispiel anhand der ersten Iteration der Schleife:
 
@@ -113,6 +122,7 @@ function rucksackproblem($objekte, $tragkraft)
     return [$maximalerGesamtwert, $kombinationsGegenstaende, $kombinationsGewicht];
 }
 
+//Ausgabe des Ergebnisses
 $ergebnis = rucksackproblem($objekte, $tragkraft);
 
 echo "Maximaler Gesamtwert: " . $ergebnis[0] . " €\n";
@@ -123,5 +133,6 @@ echo "Das Gewicht dieser Kombination beträgt " . $ergebnis[2]. "kg\n";
 //Zeitmessung
 $end = microtime(true);
 $time = $end - $start;
-echo number_format($time,10)*1000 . " MiliSekunden Laufzeit des Skripts";
+
+echo number_format($time,10)*1000 . " Milisekunden Laufzeit des Skripts";
 ?>
