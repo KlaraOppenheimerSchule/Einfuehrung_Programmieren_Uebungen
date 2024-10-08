@@ -1,4 +1,4 @@
-class Book{
+class Math{
 
     getSumme(a,b){
         return a+b;
@@ -52,15 +52,15 @@ class Book{
     };
 }
 
-const book = new Book();
+const math = new Math();
 
 // Task 1
-console.log(book.getSumme(2,3));
+console.log(math.getSumme(2,3));
 // Task 2
-console.log(book.getQuadr(5));
+console.log(math.getQuadr(5));
 // Task 3
-console.log(book.getIsPositive(2));
+console.log(math.getIsPositive(2));
 // Task 4
-console.log(book.getFact(3));
+console.log(math.getFact(3));
 // Task 5
-console.log(book.getFib(6));
+console.log(math.getFib(6));
