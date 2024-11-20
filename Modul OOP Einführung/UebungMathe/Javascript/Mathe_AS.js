@@ -35,7 +35,7 @@ class Math{
         } else {
             return this.getFib(a-1) + this.getFib(a-2);
         }; */
-        let firstNumb = 0;
+        let firstNumb;
         let secNumb = 1;
         let nextNumb = secNumb;
         let count = 1;
