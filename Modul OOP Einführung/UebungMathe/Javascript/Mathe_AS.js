@@ -61,6 +61,6 @@ console.log(math.getQuadr(5));
 // Task 3
 console.log(math.getIsPositive(2));
 // Task 4
-console.log(math.getFact(3));
+console.log(math.getFact(5));
 // Task 5
 console.log(math.getFib(6));
