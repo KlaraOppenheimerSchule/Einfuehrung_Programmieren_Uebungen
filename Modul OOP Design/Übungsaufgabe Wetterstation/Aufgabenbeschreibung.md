@@ -11,7 +11,7 @@ Für eine mit Microcontrollern erstellte Wetterstation sollen Sie einen digitale
 - Es sind immer mindestens drei Messstationen vorhanden.
 - Die Wetterstation erbt von einer abstrakten Stationsklasse, die lediglich eine StationsID bereithält.
  
-![..](URL zu Bilddatien)
+![Messstation](https://github.com/KlaraOppenheimerSchule/Einfuehrung_Programmieren_Uebungen/blob/f810656297fc0cded4ca834a53a59e4c19c49777/Modul%20OOP%20Design/%C3%9Cbungsaufgabe%20Wetterstation/Messstation.png)
 
 ...
 
