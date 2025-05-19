@@ -16,12 +16,12 @@ Für eine mit Microcontrollern erstellte Wetterstation sollen Sie einen digitale
 ## Vertiefungsoptionen
 Erweitern Sie die Applikation dahingehend, dass die Messtationen die Werte nicht unmittelbar an eine Wetterstation weitergibt, sondern dies nach im Sinnes eines MQTT-Brockers umgestezt wird:
 
-###Grundprinzip eines MQTT-Brokers:
+Grundprinzip eines MQTT-Brokers:
 Publisher: Ein Gerät oder Dienst, das Daten sendet (z. B. ein Temperatursensor).
 Subscriber: Ein Gerät oder Dienst, das Daten empfangen möchte (z. B. eine App, die die Temperatur anzeigt).
 Broker: Der Vermittler, der Nachrichten vom Publisher entgegennimmt und sie an alle passenden Subscriber weiterleitet.
 
-###Wie funktioniert das?
+Wie funktioniert dieser?
 Geräte verbinden sich mit dem Broker.
 Publisher veröffentlichen Nachrichten zu einem bestimmten Thema (Topic), z. B. sensor/temperatur.
 Subscriber abonnieren Themen, die sie interessieren.
