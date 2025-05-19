@@ -13,8 +13,6 @@ Für eine mit Microcontrollern erstellte Wetterstation sollen Sie einen digitale
  
 ![Messstation](https://github.com/KlaraOppenheimerSchule/Einfuehrung_Programmieren_Uebungen/blob/f810656297fc0cded4ca834a53a59e4c19c49777/Modul%20OOP%20Design/%C3%9Cbungsaufgabe%20Wetterstation/Messstation.png)
 
-...
-
 ## Vertiefungsoptionen
 Erweitern Sie die Applikation dahingehend, dass die Messtationen die Werte nicht unmittelbar an eine Wetterstation weitergibt, sondern dies nach im Sinnes eines MQTT-Brockers umgestezt wird:
 
